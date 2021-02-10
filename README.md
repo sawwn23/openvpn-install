@@ -14,11 +14,11 @@ If you want to show your appreciation, you can donate via [PayPal](https://www.p
 
 ### Install On Ubuntu 20.04
 
-####Install openvpn 
+#### Install openvpn 
 
 `wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh`
 
-####Change the configuration to login mutiuser with one config
+#### Change the configuration to login mutiuser with one config
 
 ```
 vim /etc/openvpn/server/server.conf
@@ -26,7 +26,7 @@ vim /etc/openvpn/server/server.conf
 Add duplicate-cn at the end of the config
 ```
 
-####Install dynamic dns client no-ip to avoid ip address ban (Optional)
+#### Install dynamic dns client no-ip to avoid ip address ban (Optional)
 
 ```
 wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
@@ -40,7 +40,7 @@ make
 make install
 ```
 
-####Install obfs4proxy to bypass DPI(Optional)
+#### Install obfs4proxy to bypass DPI(Optional)
 
 ```
 apt install obfs4proxy
