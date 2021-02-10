@@ -1,0 +1,10 @@
+[Unit]
+Description=obfs4proxy Server
+
+[Service]
+EnvironmentFile=/var/lib/tor/pt_state/obfs4/obfs4.config
+ExecStart=/usr/bin/obfs4proxy -enableLogging true -logLevelStr DEBUG
+
+[Install]
+WantedBy=multi-user.target
+
