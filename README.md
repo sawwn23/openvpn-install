@@ -47,7 +47,7 @@ cp obfs4proxy.service /etc/systemd/system/
 ### Tested Client
 
 | Platform		| Client 		|
-| ____________	| ____________	|
+| ----------	| ----------	|
 | Windows 		| obfsproxy+openvpn client|
 | Linux 		| obfsproxy+openvpn client|
 | Android 		| VPN Client Pro		  |
