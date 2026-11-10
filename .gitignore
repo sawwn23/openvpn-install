@@ -1,0 +1,4 @@
+
+# Secrets / generated credentials
+client/
+*.ovpn
